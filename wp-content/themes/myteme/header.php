@@ -4,7 +4,7 @@
 
     <meta charset="<?php bloginfo("charset") ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Carousel Template · Bootstrap v5.3</title>
+    <!-- <title>Carousel Template · Bootstrap v5.3</title> -->
 
     <!-- esta funcion va justo antes del cierre de head -->
     <?php wp_head(); ?>

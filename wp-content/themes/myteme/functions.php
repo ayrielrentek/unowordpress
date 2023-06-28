@@ -25,3 +25,10 @@ function plz_analytics(){
 
 //llamamos la funcion anterior para ejecutarla
 add_action("wp_body_open", "plz_analytics");
+
+
+function plz_theme_support(){
+    add_theme_support('title-tag');
+}
+
+add_action("after_setup_theme", "plz_theme_support");
