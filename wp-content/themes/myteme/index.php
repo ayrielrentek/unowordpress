@@ -5,6 +5,19 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
+<?php
+    if ( have_posts() ) {
+
+        // Load posts loop.
+        while ( have_posts() ) {
+            the_post();
+            the_content();
+        }
+
+
+    }
+
+?>
 
     <div class="container marketing">
 
