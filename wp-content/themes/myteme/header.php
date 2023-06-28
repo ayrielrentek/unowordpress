@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html <?php language_attributes() ?>lang="en" data-bs-theme="auto">
 <head><script src="<?php echo get_template_directory_uri();?>/assets/js/color-modes.js"></script>
 
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo("charset") ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Carousel Template · Bootstrap v5.3</title>
 
