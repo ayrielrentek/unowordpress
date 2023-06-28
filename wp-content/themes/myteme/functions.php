@@ -13,3 +13,15 @@ function plz_assets(){
 
 //llamamos la funcion anterior para ejecutarla
 add_action("wp_enqueue_scripts", "plz_assets");
+
+
+function plz_analytics(){
+    //por ejemplo de contenido analytics
+    ?>
+    <p>supuesto contenido analytics</p>
+
+    <?php
+}
+
+//llamamos la funcion anterior para ejecutarla
+add_action("wp_body_open", "plz_analytics");
