@@ -8,7 +8,7 @@ function plz_assets(){
     //ahora llamamos nuestro ultimos estilos, los metemos en la cola del ciclo de vida de wordpress)
     wp_enqueue_style("styles_carousel", get_template_directory_uri()."/carousel.css", ["bootstrap", "styles_nav"], false, 'all');
 
-    wp_enqueue_script("myteme",  get_template_directory_uri()."/assets/dist/js/bootstrap.bundle.min.js");
+    wp_enqueue_script("myteme",  get_template_directory_uri()."/assets/dist/js/bootstrap.bundle.min.js", [], false, true);
 }
 
 //llamamos la funcion anterior para ejecutarla
